@@ -5,11 +5,9 @@
     <projectFile profileName="IIS Express">SimpleWebApp.UI/SimpleWebApp.UI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79b64c13-065d-4da2-bbfb-9578dd0c0581" name="Changes" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/SimpleWebApp.DataBase/DataBaseContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimpleWebApp.DataBase/DataBaseSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimpleWebApp.Domain/Writer.cs" afterDir="false" />
+    <list default="true" id="79b64c13-065d-4da2-bbfb-9578dd0c0581" name="Changes" comment="DataBase is ready for initial migration">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SimpleWebApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SimpleWebApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleWebApp.DataBase/DataBaseContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleWebApp.DataBase/DataBaseContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SimpleWebApp.DataBase/SimpleWebApp.DataBase.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleWebApp.DataBase/SimpleWebApp.DataBase.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SimpleWebApp.DataBase/obj/Debug/net6.0/SimpleWebApp.DataBase.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleWebApp.DataBase/obj/Debug/net6.0/SimpleWebApp.DataBase.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SimpleWebApp.DataBase/obj/SimpleWebApp.DataBase.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleWebApp.DataBase/obj/SimpleWebApp.DataBase.csproj.nuget.dgspec.json" afterDir="false" />
@@ -18,10 +16,6 @@
       <change beforePath="$PROJECT_DIR$/SimpleWebApp.DataBase/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleWebApp.DataBase/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SimpleWebApp.DataBase/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleWebApp.DataBase/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SimpleWebApp.DataBase/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleWebApp.DataBase/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleWebApp.Domain/obj/SimpleWebApp.Domain.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleWebApp.Domain/obj/SimpleWebApp.Domain.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleWebApp.Services/obj/SimpleWebApp.Services.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleWebApp.Services/obj/SimpleWebApp.Services.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleWebApp.UI/obj/Debug/net6.0/SimpleWebApp.UI.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleWebApp.UI/obj/Debug/net6.0/SimpleWebApp.UI.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleWebApp.UI/obj/SimpleWebApp.UI.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleWebApp.UI/obj/SimpleWebApp.UI.csproj.nuget.g.props" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679315506148</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="DataBase is ready for initial migration">
+      <created>1679318014746</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679318014746</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="false" />
@@ -98,6 +99,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="DataBase is ready for initial migration" />
+    <option name="LAST_COMMIT_MESSAGE" value="DataBase is ready for initial migration" />
   </component>
 </project>
