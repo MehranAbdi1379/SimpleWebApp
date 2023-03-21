@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/home/mehran/RiderProjects/SimpleWebApp/SimpleWebApp.Domain/SimpleWebApp.Domain.csproj": {}
+    "C:\\Users\\mehra\\Source\\Repos\\MehranAbdi1379\\SimpleWebApp\\SimpleWebApp.Domain\\SimpleWebApp.Domain.csproj": {}
   },
   "projects": {
-    "/home/mehran/RiderProjects/SimpleWebApp/SimpleWebApp.Domain/SimpleWebApp.Domain.csproj": {
+    "C:\\Users\\mehra\\Source\\Repos\\MehranAbdi1379\\SimpleWebApp\\SimpleWebApp.Domain\\SimpleWebApp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/mehran/RiderProjects/SimpleWebApp/SimpleWebApp.Domain/SimpleWebApp.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\mehra\\Source\\Repos\\MehranAbdi1379\\SimpleWebApp\\SimpleWebApp.Domain\\SimpleWebApp.Domain.csproj",
         "projectName": "SimpleWebApp.Domain",
-        "projectPath": "/home/mehran/RiderProjects/SimpleWebApp/SimpleWebApp.Domain/SimpleWebApp.Domain.csproj",
-        "packagesPath": "/home/mehran/.nuget/packages/",
-        "outputPath": "/home/mehran/RiderProjects/SimpleWebApp/SimpleWebApp.Domain/obj/",
+        "projectPath": "C:\\Users\\mehra\\Source\\Repos\\MehranAbdi1379\\SimpleWebApp\\SimpleWebApp.Domain\\SimpleWebApp.Domain.csproj",
+        "packagesPath": "C:\\Users\\mehra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mehra\\Source\\Repos\\MehranAbdi1379\\SimpleWebApp\\SimpleWebApp.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/mehran/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\mehra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,7 +49,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -52,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.113/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

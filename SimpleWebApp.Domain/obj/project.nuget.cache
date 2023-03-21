@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y367E1MHSXrKhv5Gb3nzvAz65CzwFN9S9FhMWob/USBf0KSZ620+C7d+Ic0gN621thSRjYk8vl7qblUVnbYLiA==",
+  "dgSpecHash": "pT/U7XNYXDjaxj18jvm0RmIg3Xnq+0oDr8gSKTImuMSEwPxcNDUKcoJUl0QUnas5xUWJ6Uazm9mo6uOFBs6Qqw==",
   "success": true,
-  "projectFilePath": "/home/mehran/RiderProjects/SimpleWebApp/SimpleWebApp.Domain/SimpleWebApp.Domain.csproj",
+  "projectFilePath": "C:\\Users\\mehra\\Source\\Repos\\MehranAbdi1379\\SimpleWebApp\\SimpleWebApp.Domain\\SimpleWebApp.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

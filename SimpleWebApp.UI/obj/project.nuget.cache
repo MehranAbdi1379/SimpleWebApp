@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "B/HU6esNjYk+ool0ygmKn79KfScmTOGRgGCNaHKZVDmtCtGpVxJ/we6cA/UXdEXLftXv8qfLVWf/NiMpTUPt3w==",
+  "dgSpecHash": "/lQEBm7ba/0OrAV8IEeYPR+yCXlyBxLh0em5j6htevVJbPOxHVZQzu56CAwgofxgtkYqjPNGIldAXPL+2DDPkg==",
   "success": true,
-  "projectFilePath": "/home/mehran/RiderProjects/SimpleWebApp/SimpleWebApp.UI/SimpleWebApp.UI.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\mehra\\Source\\Repos\\MehranAbdi1379\\SimpleWebApp\\SimpleWebApp.UI\\SimpleWebApp.UI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mehra\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\mehra\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -16,4 +16,14 @@ public class IndexModel : PageModel
     {
 
     }
+
+    public IActionResult OnPostSignIn()
+    {
+        return RedirectToPage();
+    }
+    
+    public IActionResult OnPostSingUp()
+    {
+        return RedirectToPage();
+    }
 }

@@ -5,9 +5,9 @@ namespace SimpleWebApp.DataBase;
 
 public class DataBaseContext : DbContext
 {
-    public DataBaseContext() : base("Data Source=/SQLite DataBases/mydb.db;Version=3;")
+    public DataBaseContext() : base("Server=(localdb)\\MSSQLLocalDB;Database=SimpleWebAppDB;Trusted_Connection=True;")
     {
-        
+
     }
 
     protected override void OnModelCreating(DbModelBuilder modelBuilder)
