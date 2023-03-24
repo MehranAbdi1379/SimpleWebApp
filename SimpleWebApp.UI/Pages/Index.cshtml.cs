@@ -19,11 +19,11 @@ public class IndexModel : PageModel
 
     public IActionResult OnPostSignIn()
     {
-        return RedirectToPage();
+        return RedirectToPage("Signing pages/SignInPage");
     }
     
-    public IActionResult OnPostSingUp()
+    public IActionResult OnPostSignUp()
     {
-        return RedirectToPage();
+        return RedirectToPage("Signing pages/SignUpPage");
     }
 }

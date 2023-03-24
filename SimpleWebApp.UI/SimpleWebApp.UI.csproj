@@ -10,4 +10,10 @@
     <PackageReference Include="AutoMapper" Version="12.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SimpleWebApp.DataBase\SimpleWebApp.DataBase.csproj" />
+    <ProjectReference Include="..\SimpleWebApp.Domain\SimpleWebApp.Domain.csproj" />
+    <ProjectReference Include="..\SimpleWebApp.Services\SimpleWebApp.Services.csproj" />
+  </ItemGroup>
+
 </Project>

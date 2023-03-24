@@ -1,0 +1,15 @@
+﻿@page
+@model SimpleWebApp.UI.Pages.Signing_pages.SignInPageModel
+@{
+}
+
+<form method="post">
+    <p>UserName: <input name="UserName" type="text"/></p>
+    <p>Password: <input name="PassWord" type="password"/></p>
+    <button class="btn-primary" type="submit">Sign in</button>
+</form>
+
+@if(Model.ReturnedToPage == true)
+{
+    <h4>Username or Password is wrong. Please check again...</h4>
+}

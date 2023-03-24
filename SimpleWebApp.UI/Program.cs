@@ -1,7 +1,12 @@
+using SimpleWebApp.Services;
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddTransient<IGlobalServices, GlobalServices>();
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+
 
 var app = builder.Build();
 
