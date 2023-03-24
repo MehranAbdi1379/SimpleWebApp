@@ -9,26 +9,38 @@ using System.Threading.Tasks;
 
 namespace SimpleWebApp.Services
 {
-    public class GlobalServices
+    public class GlobalServices : IGlobalServices
     {
-        DataBaseContext dataBaseContext;
+        DataBaseContext dataBaseContext = new DataBaseContext();
 
-        public GlobalServices(DataBaseContext dataBaseContext)
+
+        public bool SignUp(string firstName, string lastName, string userName, string passWord, DateTime birthDate)
         {
-            this.dataBaseContext = dataBaseContext;
+            if (dataBaseContext.Writers.Where(w => w.UserName == userName).FirstOrDefault() == null)
+            {
+                Writer writer = new Writer()
+                {
+                    FirstName = firstName,
+                    LastName = lastName,
+                    UserName = userName,
+                    Password = passWord,
+                    BirthDate = birthDate
+                };
+                dataBaseContext.Writers.Add(writer);
+                dataBaseContext.SaveChanges();
+
+                return true;
+            }
+            else
+                return false;
+
         }
 
-        public void SignUp(Writer writer)
-        {
-            dataBaseContext.Writers.Add(writer);
-            dataBaseContext.SaveChanges();
-        }
-
-        public bool SignIn(string userName , string passWord)
+        public bool SignIn(string userName, string passWord)
         {
             if (dataBaseContext.Writers.Where(w => w.UserName == w.UserName && w.Password == passWord).FirstOrDefault() == null)
                 return false;
-            
+
             else
                 return true;
         }
